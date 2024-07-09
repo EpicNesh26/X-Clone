@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="./css/output.css">
 </head>
 
-<body class="bg-black text-white">
+<body class="bg-black ">
     <div class="flex container mx-auto my-4">
-        <div class="first w-[70%]">
+        <div class="first w-full">
             <div class="logo invert my-4">
                 <svg viewBox="0 0 24 24" aria-hidden="true"
-                    class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                    class="w-6 ml-[355px] r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
                     <g>
                         <path
                             d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
@@ -23,31 +23,53 @@
                     </g>
                 </svg>
             </div>
-            <div class="sidebar flex justify-end font-bold">
+            <div class="sidebar flex justify-end text-white">
 
-                <ul class="flex flex-col text-2xl space-y-3  px-11">
-                    <li class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full  cursor-pointer"><span
-                            class="text-3xl material-symbols-outlined"> Home</span> Home</li>
-                    <li class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full xcursor-pointer "><span
-                            class="text-3xl material-symbols-outlined"> Explore</span> Explore</li>
-                    <li class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full xcursor-pointer "><span
-                            class="text-3xl material-symbols-outlined"> Notifications</span> Notifications</li>
-                    <li class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full xcursor-pointer "><span
-                            class="text-3xl material-symbols-outlined"> Message</span> Messages</li>
-                    <li class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full xcursor-pointer "><span
-                            class="text-3xl material-symbols-outlined"> manage_search</span> Grok</li>
-                    <li class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full xcursor-pointer "><span
-                            class="text-3xl material-symbols-outlined"> Bookmarks</span> Bookmarks</li>
-                    <li class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full xcursor-pointer "><span
-                            class="text-3xl material-symbols-outlined"> Communities</span> Communities</li>
-                    <li class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full xcursor-pointer "><span
-                            class="text-3xl material-symbols-outlined"> Paid</span> Premium</li>
-                    <li class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full xcursor-pointer "><span
-                            class="text-3xl material-symbols-outlined"> Verified</span> Verified Orgs</li>
-                    <li class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full xcursor-pointer "><span
-                            class="text-3xl material-symbols-outlined"> Person</span> Profile</li>
-                    <li class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full xcursor-pointer "><span
-                            class="text-3xl material-symbols-outlined"> More</span> More</li>
+                <ul class="flex flex-col text-sm space-y-1  px-6">
+                    <li
+                        class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full  cursor-pointer">
+                        <span class="text-2xl material-symbols-outlined"> Home</span> Home
+                    </li>
+                    <li
+                        class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full cursor-pointer ">
+                        <span class="text-2xl material-symbols-outlined"> Explore</span> Explore
+                    </li>
+                    <li
+                        class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full cursor-pointer ">
+                        <span class="text-2xl material-symbols-outlined"> Notifications</span> Notifications
+                    </li>
+                    <li
+                        class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full cursor-pointer ">
+                        <span class="text-2xl material-symbols-outlined"> Message</span> Messages
+                    </li>
+                    <li
+                        class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full cursor-pointer ">
+                        <span class="text-2xl material-symbols-outlined"> manage_search</span> Grok
+                    </li>
+                    <li
+                        class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full cursor-pointer ">
+                        <span class="text-2xl material-symbols-outlined"> Bookmarks</span> Bookmarks
+                    </li>
+                    <li
+                        class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full cursor-pointer ">
+                        <span class="text-2xl material-symbols-outlined"> Communities</span> Communities
+                    </li>
+                    <li
+                        class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full cursor-pointer ">
+                        <span class="text-2xl material-symbols-outlined"> Paid</span> Premium
+                    </li>
+                    <li
+                        class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full cursor-pointer ">
+                        <span class="text-2xl material-symbols-outlined"> Verified</span> Verified Orgs
+                    </li>
+                    <li
+                        class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full cursor-pointer ">
+                        <span class="text-2xl material-symbols-outlined"> Person</span> Profile
+                    </li>
+                    <li
+                        class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full cursor-pointer ">
+                        <span class="text-2xl material-symbols-outlined"> More</span> More
+                    </li>
 
                 </ul>
 
@@ -55,13 +77,18 @@
             </div>
         </div>
         <div class="second w-full border-[1px] border-x-gray-800 border-y-black">b</div>
-        <div class="third  w-full bg-red-500">
+        <div class="third  w-full text-white">
             <div class="search">
-                <input type="text" class="w-3/4 rounded-full bg-[#202327] text-white px-5 py-2" placeholder="search">
+                <input type="text" class="w-1/2 rounded-full bg-[#121212] text-white px-5 py-2 mx-[10px]" placeholder="search">
             </div>
 
-            <div class="whats m-3">
-                <h1 class="text-xl bg-[#202327] w-3/4">Whats Happening</h1>
+            <div class="whats m-3 px-0 bg-black border-[1px] border-gray-800 w-1/2 rounded-xl ">
+                <h1 class="text-xl font-bold py-1 px-1">Whats Happening</h1>
+                <div class="item my-2  p-2 pt-0 hover:bg-[#121212]  cursor-pointer">
+                    <div class="text-[12px] text-gray-200 ">Trending In Canada</div>
+                    <div class="text-[10px] font-normal ">#U of T</div>
+                    <div class="text-[10px] text-gray-200">4329 Posts</div>
+                </div>
             </div>
         </div>
     </div>
