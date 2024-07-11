@@ -699,6 +699,22 @@ video {
   height: 1.75rem;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-\[0\.2px\] {
+  height: 0.2px;
+}
+
+.h-\[0\.1px\] {
+  height: 0.1px;
+}
+
+.h-\[35px\] {
+  height: 35px;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -722,6 +738,30 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-\[95\%\] {
+  width: 95%;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-9 {
+  width: 2.25rem;
+}
+
+.w-\[80\%\] {
+  width: 80%;
 }
 
 .cursor-pointer {
@@ -915,6 +955,10 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[1px\] {
+  font-size: 1px;
 }
 
 .font-bold {
