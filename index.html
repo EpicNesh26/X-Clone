@@ -12,13 +12,13 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    
+
     <link rel="shortcut icon" href="//abs.twimg.com/favicons/twitter.3.ico">
 </head>
 
 <body class="bg-black ">
     <div class="flex container mx-auto my-4">
-        <div class="first w-full">
+        <div class="first md:w-[80%]">
             <div class="logo invert my-4">
                 <svg viewBox="0 0 24 24" aria-hidden="true"
                     class="w-6 ml-[330px] r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
@@ -34,51 +34,62 @@
                 <ul class="flex flex-col text-sm space-y-1  px-6">
                     <li
                         class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full  cursor-pointer">
-                        <span class="text-2xl material-symbols-outlined"> Home</span> Home
+                        <span class="text-2xl material-symbols-outlined"> Home</span> <span class="hidden md:block">Home</span>
                     </li>
                     <li
                         class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full cursor-pointer ">
-                        <span class="text-2xl material-symbols-outlined"> Explore</span> Explore
+                        <span class="text-2xl material-symbols-outlined"> Explore</span> <span class="hidden md:block"> Explore
+                        </span>
                     </li>
                     <li
                         class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full cursor-pointer ">
-                        <span class="text-2xl material-symbols-outlined"> Notifications</span> Notifications
+                        <span class="text-2xl material-symbols-outlined"> Notifications</span> <span class="hidden md:block"> Notifications
+                        </span>
                     </li>
                     <li
                         class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full cursor-pointer ">
-                        <span class="text-2xl material-symbols-outlined"> Message</span> Messages
+                        <span class="text-2xl material-symbols-outlined"> Message</span> <span class="hidden md:block"> Messages
+                        </span>
                     </li>
                     <li
                         class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full cursor-pointer ">
-                        <span class="text-2xl material-symbols-outlined"> manage_search</span> Grok
+                        <span class="text-2xl material-symbols-outlined"> manage_search</span> <span class="hidden md:block"> Grok
+                        </span>
                     </li>
                     <li
                         class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full cursor-pointer ">
-                        <span class="text-2xl material-symbols-outlined"> Bookmarks</span> Bookmarks
+                        <span class="text-2xl material-symbols-outlined"> Bookmarks</span> <span class="hidden md:block"> Bookmarks
+                        </span>
                     </li>
                     <li
                         class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full cursor-pointer ">
-                        <span class="text-2xl material-symbols-outlined"> Communities</span> Communities
+                        <span class="text-2xl material-symbols-outlined"> Communities</span> <span class="hidden md:block"> Communities
+                        </span>
                     </li>
                     <li
                         class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full cursor-pointer ">
-                        <span class="text-2xl material-symbols-outlined"> Paid</span> Premium
+                        <span class="text-2xl material-symbols-outlined"> Paid</span> <span class="hidden md:block"> Premium
+                        </span>
                     </li>
                     <li
                         class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full cursor-pointer ">
-                        <span class="text-2xl material-symbols-outlined"> Verified</span> Verified Orgs
+                        <span class="text-2xl material-symbols-outlined"> Verified</span> <span class="hidden md:block"> Verified Orgs
+                        </span>
                     </li>
                     <li
                         class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full cursor-pointer ">
-                        <span class="text-2xl material-symbols-outlined"> Person</span> Profile
+                        <span class="text-2xl material-symbols-outlined"> Person</span> <span class="hidden md:block"> Profile
+                        </span>
                     </li>
                     <li
                         class="flex justify-start w-fit items-center px-4 py-[6px] gap-3 hover:bg-zinc-900 rounded-full cursor-pointer ">
-                        <span class="text-2xl material-symbols-outlined"> More</span> More
+                        <span class="text-2xl material-symbols-outlined"> More</span> <span class="hidden md:block"> More
+                        </span>
                     </li>
                     <li>
                         <div class="button w-full text-center">
-                            <button class="bg-blue-600 px-16 ml-3 text-sm font-bold rounded-full py-1 text-white">Post</button>
+                            <button
+                                class="bg-blue-600 px-16 ml-3 text-sm font-bold rounded-full py-1 text-white">Post</button>
                         </div>
                     </li>
                 </ul>
@@ -113,9 +124,9 @@
                         </span>
                     </div>
                     <div class="w-[90%] h-[0.1px] bg-gray-800 my-2 ">
-                        
+
                     </div>
-                    
+
                     <div class="blueicons flex gap-2 text-blue-800">
                         <span class="material-symbols-outlined text-sm cursor-pointer">image</span>
                         <span class="material-symbols-outlined text-sm cursor-pointer">gif_box</span>
@@ -127,10 +138,119 @@
                 </div>
 
             </div>
-            <div class="w-full h-[0.1px] bg-gray-800 my-2 ">     
+            <div class="w-full h-[0.1px] bg-gray-800 my-2 ">
             </div>
 
-            
+            <div class="posts">
+                <div class="post">
+                    <div class="flex">
+
+                        <div class="image mx-4 my-2">
+                            <img class="w-16 object-contain rounded-full  " src="Images/130682376.png" alt="">
+                        </div>
+                        <div class="content text-xs my-2">
+                            <span class="font-bold hover:underline cursor-pointer"> Duyenan <span
+                                    class="text-[10px] text-gray-400">@Ana · 13h </span> </span>
+                            <div class="text-[11px]">Colors 🌈</div>
+                            <div class="postimg w-[95%] my-2">
+                                <img class="rounded-xl"
+                                    src="https://ipt.imgix.net/205513/x/0/landscape-photography-everything-you-need-to-know-8.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883"
+                                    alt="">
+                            </div>
+                            <div class="icons flex justify-between  w-[95%] ">
+                                <div class="icon flex items-center justify-center text-sm text-gray-400 space-x-1">
+                                    <span class="material-symbols-outlined text-gray-400 text-xs">
+                                        chat
+                                    </span>
+                                    1k
+                                </div>
+                                <div class="icons flex items-center justify-center text-xs text-gray-400 space-x-1">
+                                    <span class="material-symbols-outlined text-gray-400">
+                                        repeat
+                                    </span>
+                                    130
+                                </div>
+                                <div class="icons flex items-center justify-center text-xs text-gray-400 space-x-1">
+                                    <span class="material-symbols-outlined text-gray-400">
+                                        favorite
+                                    </span>
+                                    12.1k
+                                </div>
+                                <div class="icons flex items-center justify-center text-xs text-gray-400 space-x-1">
+                                    <span class="material-symbols-outlined text-gray-400">
+                                        signal_cellular_alt
+                                    </span>
+                                    29k
+                                </div>
+                                <div class="icons flex items-center justify-center text-xs text-gray-400 space-x-1">
+                                    <span class="material-symbols-outlined text-gray-400">
+                                        bookmark
+                                    </span>
+                                    130
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full h-[0.1px] bg-gray-800 my-2 ">
+                </div>
+            </div>
+            <div class="posts">
+                <div class="post">
+                    <div class="flex">
+
+                        <div class="image mx-4 my-2">
+                            <img class="w-16 object-contain rounded-full  " src="Images/130682376.png" alt="">
+                        </div>
+                        <div class="content text-xs my-2">
+                            <span class="font-bold hover:underline cursor-pointer"> Duyenan <span
+                                    class="text-[10px] text-gray-400">@Ana · 13h </span> </span>
+                            <div class="text-[11px]">Colors 🌈</div>
+                            <div class="postimg w-[95%] my-2">
+                                <img class="rounded-xl"
+                                    src="https://ipt.imgix.net/205513/x/0/landscape-photography-everything-you-need-to-know-8.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883"
+                                    alt="">
+                            </div>
+                            <div class="icons flex justify-between  w-[95%] ">
+                                <div class="icon flex items-center justify-center text-sm text-gray-400 space-x-1">
+                                    <span class="material-symbols-outlined text-gray-400 text-xs">
+                                        chat
+                                    </span>
+                                    1k
+                                </div>
+                                <div class="icons flex items-center justify-center text-xs text-gray-400 space-x-1">
+                                    <span class="material-symbols-outlined text-gray-400">
+                                        repeat
+                                    </span>
+                                    130
+                                </div>
+                                <div class="icons flex items-center justify-center text-xs text-gray-400 space-x-1">
+                                    <span class="material-symbols-outlined text-gray-400">
+                                        favorite
+                                    </span>
+                                    12.1k
+                                </div>
+                                <div class="icons flex items-center justify-center text-xs text-gray-400 space-x-1">
+                                    <span class="material-symbols-outlined text-gray-400">
+                                        signal_cellular_alt
+                                    </span>
+                                    29k
+                                </div>
+                                <div class="icons flex items-center justify-center text-xs text-gray-400 space-x-1">
+                                    <span class="material-symbols-outlined text-gray-400">
+                                        bookmark
+                                    </span>
+                                    130
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full h-[0.1px] bg-gray-800 my-2 ">
+                </div>
+            </div>
+
+
 
         </div>
         <div class="third  w-full text-white">
