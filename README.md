@@ -41,7 +41,7 @@ Make sure you have the following installed on your local machine:
 ### Installation
 1. Clone the repository:
 ```sh
-git clone https://github.com/your-username/x-clone.git
+https://github.com/EpicNesh26/X-Clone.git
 ```
 2. Navigate to the project directory:
 ```sh
