@@ -4,8 +4,8 @@ Welcome to X Clone! This project is a near-perfect clone of [X.com](https://x.co
 ## Table of Contents
 - [Demo](#demo)
 - [Features](#features)
-- [Technologies Used](#technologiesused)
-- [Getting Started](#gettingstarted)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
