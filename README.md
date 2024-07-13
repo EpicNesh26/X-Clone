@@ -73,7 +73,7 @@ Contributions are what make the open-source community such an amazing place to l
 4. Open a Pull Request
 
 ## License
-Distributed under the MIT License. See LICENSE for more information.
+Distributed under the MIT License. See [LICENSE](#license) for more information.
 
 ## Acknowledgements
 1. x.com for the inspiration.
