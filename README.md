@@ -14,7 +14,9 @@ Welcome to X Clone! This project is a near-perfect clone of [X.com](https://x.co
 - [Acknowledgements](#acknowledgements)
 
 ## Demo
-Check out the live demo of X Clone: [X Clone Live Demo](https://xclqne.netlify.app/)
+Check out the live demo of X Clone: 
+1. Using Netlify: [X Clone Live Demo](https://xclqne.netlify.app/)
+2. Using Github Pages: [X Clone Live Demo](https://epicnesh26.github.io/X-Clone/)
 
 ## Features
 - 🎨 Responsive Design: Adapted for both mobile and desktop views.
